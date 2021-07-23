@@ -12,22 +12,24 @@ The lectures can be found at [YouTube: Statistical Rethinking 2019](https://www.
 
 ### Code
 
-We'll use Python and [PyMC3](https://docs.pymc.io/) throughout.
+We'll use Python and specifically [PyMC3](https://docs.pymc.io/) throughout.
 
-For a PyMC3 version of all the code examples in the book see [PyMC3/Rethinking_2](https://github.com/pymc-devs/resources/tree/master/Rethinking_2)
+Consider using [Colab](colab.to) notebooks if you don't want to setup a python environment. It's free online Python notebooks.
 
-### Expected workload
+### Study guide
 
-Read chapers and watch lectures before class. Solve exercises in class. Do peer grading after class.
+1. Before class: Read chapters and watch lectures. **Important**: Read the corresponding [PyMC3 code examples](https://github.com/pymc-devs/resources/tree/master/Rethinking_2) alongside the book chapters. 
+1. In class: Solve exercises.
+1. After class: Peer grade exercises.
 
-* Reading: 3 hours
+Expected Workload:
+
+* Reading: 3 hours.    
 * Watching lectures: 2 hours
 * Exercises in class: 4 hours
 * Peer Grading: 1 hour
 
 Total: 10 hours/week.
-
-<small>Consider using [Colab](colab.to) notebooks for the exercises if you don't want to setup a python environment. It's free online Python notebooks.</small>
 
 ### Schedule
 
@@ -38,5 +40,4 @@ Total: 10 hours/week.
 | 3 |  Chapters 5 and 6 | Spurious Waffles <[slides](https://speakerdeck.com/rmcelreath/l05-statistical-rethinking-winter-2019)> <[video](https://www.youtube.com/watch?v=e0tO64mtYMU&index=5&list=PLDcUM9US4XdNM4Edgs7weiyIguLSToZRI)> <br>Haunted DAG <[slides](https://speakerdeck.com/rmcelreath/l06-statistical-rethinking-winter-2019)> <[video](https://youtu.be/l_7yIUqWBmE)> | [week3.md](exercises/week3.md) | 
 | 4 |  Chapter 7 | Ulysses' Compass <[slides](https://speakerdeck.com/rmcelreath/l07-statistical-rethinking-winter-2019)> <[video](https://youtu.be/0Jc6Kgw5qc0)>  <br>Model Comparison <[slides](https://speakerdeck.com/rmcelreath/l08-statistical-rethinking-winter-2019)> <[video](https://youtu.be/gjrsYDJbRh0)> | [week4.md](exercises/week4.md) |
 | 5 |  Chapters 8 and 9 | Conditional Manatees <[slides](https://speakerdeck.com/rmcelreath/l09-statistical-rethinking-winter-2019)> <[video](https://youtu.be/QhHfo6-Bx8o)> <br>Markov Chain Monte Carlo <[slides](https://speakerdeck.com/rmcelreath/l10-statistical-rethinking-winter-2019)> <[video](https://youtu.be/v-j0UmWf3Us)> | [week5.md](exercises/week5.md)
-| 6 |  Chapters 10 and 11 | Maximum entropy & GLMs <[slides](https://speakerdeck.com/rmcelreath/l11-statistical-rethinking-winter-2019)> <[video](https://youtu.be/-4y4X8ELcEM)> <br>God Spiked the Integers <[slides](https://speakerdeck.com/rmcelreath/l12-statistical-rethinking-winter-2019)> <[video](https://youtu.be/hRJtKCIDTwc)> | [week6.md](exercises/week6.md)
 
