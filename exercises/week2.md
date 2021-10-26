@@ -8,7 +8,7 @@ For this exercise you should use [PyMC3](https://docs.pymc.io/en/stable/) to def
     You've recorded the number of users assigned to each variant and the number of those users that make a purchase for each of the two variants.
     1. Define a simple statistical model for the data. Write it in the standard notation.           
     1. Perform prior predictive checks for your model; Plot the distribution of simulated data under your prior. Refine your prior and likelihood if needed. Hint: use `pymc3.sample_prior_predictive`
-    1. Assume you observe the following data: (Variant=A, N=983, n_purchase=19), (Variant=B, N=1023, n_purchase=27). Find the posteriors using `quap` and plot them using `arviz.plot_posterior` and `arviz.forest_plot`.
+    1. Assume you observe the following data: (Variant=A, N=983, n_purchase=19), (Variant=B, N=1023, n_purchase=27). Find the posteriors using `quap` and plot them using `arviz.plot_posterior` and `arviz.plot_forest`.
     1. What is the probability that variant B is better? (Leads to more purchases). If your manager asked, would you recommend adopting variant B? 
 1. You're working at Tesla, and your job is to improve the range prediction for the Model 3 SR plus. The range prediction tells the driver how far they can expect to drive based on the current battery level. 
    You decide to model the maximum range (km) the car can drive given a full battery as a function of the average speed at which the car drives (km/h), since you know air resistance increases with speed.
