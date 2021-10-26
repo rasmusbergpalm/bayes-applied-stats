@@ -1,7 +1,7 @@
 # Week 2 exercises
 **Model building, prior predictive checks and regression.**
 
-For this exercise you should use [PyMC3](https://docs.pymc.io/en/stable/) to define your models, [pymc3-quap](https://github.com/rasmusbergpalm/pymc3-quap) for estimating the posterior and [ArviZ](https://arviz-devs.github.io/arviz/) for visualization and reporting.
+For this exercise you should use [PyMC3](https://docs.pymc.io/en/stable/) to define your models, [pymc3-quap](https://github.com/rasmusbergpalm/pymc3-quap) for estimating the posterior and [ArviZ](https://arviz-devs.github.io/arviz/) for visualization and reporting. You can use `pip install pymc3 pymc3-quap arviz` to install all three packages.
 
 1.  You've performed an A/B test on a online webshop, testing two different versions of a checkout flow; 
     when a user first enters the webshop they are assigned randomly to variant A or B of the checkout flow.      
