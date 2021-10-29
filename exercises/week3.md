@@ -17,7 +17,7 @@ Conveniently, this pollution exposure was hard to measure. Can we still estimate
         - Gender
         - Age
         - [Socioeconomic Status](https://en.wikipedia.org/wiki/Socioeconomic_status)
-    1. What are the independence assumptions the model implies? Do they seem reasonable?
+    1. What are the testable independence assumptions the model implies? Do they seem reasonable?
     1. Can you estimate the total effect of smoking on lung cancer given this model? If so, what is the minimal adjustment set needed to estimate the total effect of smoking on lung cancer?
     1. Add a single arrow to the DAG such that it becomes impossible to estimate the effect of smoking on lung cancer.      
 
