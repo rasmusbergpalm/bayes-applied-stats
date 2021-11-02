@@ -6,8 +6,13 @@
    import pandas as pd
    data = pd.read_csv('https://raw.githubusercontent.com/rmcelreath/rethinking/master/data/foxes.csv', sep=";")
    ```
-1. Solve exercise 5H2, from the book (page 164). Use `az.plot_forest([m1_posterior, m2_posterior, m3_posterior], model_names=["m1", "m2", "m3"])` to compare the three posteriors.
-1. In the 40s and 50s tobacco use was recognized as a major cause of lung cancer. It was a hard won battle of science against the tobacco industry, with a massive public health impact [1]. 
+2. Solve exercise 5H2, from the book (page 164). Use `az.plot_forest([m1_posterior, m2_posterior, m3_posterior], model_names=["m1", "m2", "m3"])` to compare the three posteriors.
+3. Define the following concepts and explain how they can lead to false causal inferences:
+   1. Spurious associations
+   2. Masked relationships
+   3. Multi-colinearity
+   4. Post treatment bias
+4. In the 40s and 50s tobacco use was recognized as a major cause of lung cancer. It was a hard won battle of science against the tobacco industry, with a massive public health impact [1]. 
 At the time however, tobacco companies offered another plausible theory, namely that of increased environmental pollution from e.g. coal plants, car exhaust and tarred roads as being the cause of increased cases of lung cancer. 
 Conveniently, this pollution exposure was hard to measure. Can we still estimate the effect of smoking despite this unmeasured pollution?  
     1. Create a DAG using [daggity.net](http://www.dagitty.net/dags.html) to estimate the total effect of smoking on lung cancer. Show the DAG as an image. The DAG should contain the following variables:  
